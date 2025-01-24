@@ -11,8 +11,8 @@ using praktika1semsectr2api.DataBaseContext;
 namespace praktika1semsectr2api.Migrations
 {
     [DbContext(typeof(ContextDb))]
-    [Migration("20250120060403_fp")]
-    partial class fp
+    [Migration("20250124211219_ppp")]
+    partial class ppp
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,16 +1,13 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.Data;
-using Microsoft.AspNetCore.Mvc;
-using praktika1semsectr2api.Interface;
+﻿using praktika1semsectr2api.Interface;
 using praktika1semsectr2api.Model;
-using praktika1semsectr2api.Service;
+using praktika1semsectr2api.Requests;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace praktika1semsectr2api.Controllers
 {
    [ApiController]
    [Route("api/[controller]")]
-   [Authorize(Roles = "Admin")]
    public class UsersController : ControllerBase
    {
         private readonly IUsercs _usersService;

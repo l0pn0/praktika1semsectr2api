@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace praktika1semsectr2api.Model
+namespace praktika1semsectr2api.Requests
 {
-    public class LoginModel
+    public class LoginRequest
     {
         [Required]
         [EmailAddress]

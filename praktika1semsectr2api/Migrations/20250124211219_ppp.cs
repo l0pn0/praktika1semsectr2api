@@ -5,7 +5,7 @@
 namespace praktika1semsectr2api.Migrations
 {
     /// <inheritdoc />
-    public partial class fp : Migration
+    public partial class ppp : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
